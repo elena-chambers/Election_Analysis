@@ -1,7 +1,7 @@
 # Election_Analysis
 
-## Project Overview
-A Colorado Board of Elections has given you the following tasks to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+A Colorado Board of Elections has given me the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -11,9 +11,9 @@ A Colorado Board of Elections has given you the following tasks to complete the 
 
 ## Resouces
 - Data Souce: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.60.2
+- Software: Python 3.8.8, Visual Studio Code, 1.60.2
 
-## Summary
+## Election Audit Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The candidates were:
@@ -26,8 +26,15 @@ The analysis of the election show that:
     - Raymon Anthony Doane received 3.1% of the votes and 11,606 number of votes
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the votes and 272,892 number of votes
+- Three counties participated in this election: 
+    - Jefferson County
+    - Dever County
+    - Arapahoe Counry
+- Voter turnout by county:
+    - Denver had the largest percentage of voters, accounting for 82.2% of votes with 306,055 votes
+    - Jefferson accounted for 10.5% of voters with 38,855 votes
+    - Arapahoe accounted for 6.7% of voters with 24,801 votes
 
-## Challenge Overview
-
-## Challenge Summary
+## Election Audit Summary
+This script has the ability to perform detailed analysis of data stored in CSV files and produces results in both a straight-forward text file and printed in the command line. While the outputs may need additional modifications to be more appealing and intuitive, the script itself is able to handle large data volumes very quickly. To increase the use and scale of this script such that it could be used for any election, regaurdless of data volumes, it would be necceasy to build in data cleaning mechanisms that can deal with anomalies, and it would be useful to create functions that can be called to identify whether the data is sorted by city, township, county, state, etc. The hard-coded county variables would need to be more flexible, perhaps using user input via message boxes.
 
